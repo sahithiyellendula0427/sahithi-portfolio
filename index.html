@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Sahithi Yellendula • Environmental Science & Isotope GIS
+    </title>
+    <meta
+      name="description"
+      content="Portfolio of Sahithi Yellendula, Environmental Science graduate researcher specializing in isotope hydrology, tracer studies, and GIS-driven climate-resilience research."
+    />
+    <meta
+      name="keywords"
+      content="Sahithi Yellendula, Environmental Science, Climate Resilience, Isotope Hydrology, Tracer Studies, Ecohydrology, GIS, ArcGIS, QGIS, R, QA/QC, Environmental Monitoring, Sustainability, Soil & Plant Water Analysis"
+    />
+    <meta name="author" content="Sahithi Yellendula" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Canvas for subtle water particles / network -->
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+    <!-- NAVBAR -->
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#top" class="nav__brand">
+          <span class="nav__brand-icon"></span>
+          <span class="nav__brand-name">Sahithi Yellendula</span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+
+        <div class="nav__links-wrap">
+          <ul class="nav__links" data-nav-links>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="nav__mobile" data-nav-mobile>
+        <a href="#about" class="nav__mobile-link">About</a>
+        <a href="#projects" class="nav__mobile-link">Projects</a>
+        <a href="#skills" class="nav__mobile-link">Skills</a>
+        <a href="#contact" class="nav__mobile-link">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="section hero" aria-labelledby="hero-heading">
+        <div class="container hero__inner">
+          <p class="hero__pill" data-reveal="up">
+            ENVIRONMENTAL SCIENCE GRADUATE RESEARCHER
+          </p>
+
+          <h1 id="hero-heading" class="hero__title" data-reveal="up" data-reveal-delay="40">
+            Isotopes and GIS for climate-resilient ecosystems.
+          </h1>
+
+          <p class="hero__subtitle" data-reveal="up" data-reveal-delay="60">
+            Environmental data interpretation for sustainability-focused ecological solutions—using isotope hydrology, tracer studies, and GIS environmental monitoring to support climate resilience.
+          </p>
+
+          <p class="hero__focus" data-reveal="up" data-reveal-delay="80">
+            Focus: <span id="typing-text" class="hero__focus-typed"></span><span class="hero__cursor" aria-hidden="true">|</span>
+          </p>
+
+          <div class="hero__actions" data-reveal="up" data-reveal-delay="100">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a
+              href="/resume.pdf"
+              class="btn btn--outline"
+              data-cv-link
+              target="_blank"
+              rel="noreferrer"
+              >Download Resume</a
+            >
+          </div>
+
+          <div class="hero__meta" data-reveal="up" data-reveal-delay="120">
+            <div class="hero__meta-item">
+              <span class="hero__meta-label">Specialties</span>
+                <span class="hero__meta-value">Isotope hydrology . Tracer studies . GIS environmental monitoring</span>
+            </div>
+            <div class="hero__meta-item">
+              <span class="hero__meta-label">Location</span>
+              <span class="hero__meta-value">Arlington, TX</span>
+            </div>
+          </div>
+
+          <div class="hero__avatar" data-reveal="up" data-reveal-delay="80" aria-hidden="true">
+            <span class="hero__avatar-inner">SY</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section
+        class="section section--alt"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <div class="container">
+          <header class="section__header" data-reveal="up">
+            <p class="badge-label">ABOUT ME</p>
+            <h2 id="about-heading" class="section__title">
+              Climate resilience through isotope hydrology and GIS-driven monitoring.
+            </h2>
+          </header>
+
+          <div class="about__grid">
+            <div
+              class="about__text"
+              data-reveal="up"
+              data-reveal-delay="40"
+            >
+              <p>
+                Environmental Science graduate researcher with experience in
+                climate analysis, environmental data interpretation, and
+                sustainability-focused projects. Skilled in GIS and
+                environmental monitoring to support climate resilience and
+                ecological solutions.
+              </p>
+              <p>
+                I&apos;m experienced in multidisciplinary research collaborations
+                and ecological design initiatives, with a focus on applying
+                scientific analysis and environmental data to support climate
+                adaptation, sustainability, and environmental management.
+              </p>
+            </div>
+
+            <div
+              class="about__cards"
+              data-reveal="up"
+              data-reveal-delay="80"
+            >
+              <article class="info-card">
+                <p class="info-card__eyebrow">MOST RECENT ROLE</p>
+                <h3 class="info-card__title">Graduate Research Assistant</h3>
+                <p class="info-card__meta">
+                  Tracer Hydrology Lab • University of Texas at Arlington (Apr 2024 – Dec 2025)
+                </p>
+              </article>
+
+              <article class="info-card">
+                <p class="info-card__eyebrow">LOCATION</p>
+                <h3 class="info-card__title">Arlington, TX, USA</h3>
+              </article>
+
+              <article class="info-card">
+                <p class="info-card__eyebrow">FOCUS AREAS</p>
+                <ul class="info-card__list">
+                  <li>• Isotope hydrology</li>
+                  <li>• Tracer studies</li>
+                  <li>• Soil–plant–water systems</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESEARCH JOURNEY -->
+      <section
+        class="section"
+        id="research"
+        aria-labelledby="research-heading"
+      >
+        <div class="container">
+          <header class="section__header" data-reveal="up">
+            <p class="badge-label">RESEARCH JOURNEY</p>
+            <h2 id="research-heading" class="section__title">
+              From field sampling to data stories.
+            </h2>
+          </header>
+
+          <div class="journey__grid">
+            <div
+              class="journey__timeline"
+              data-reveal="up"
+              data-reveal-delay="40"
+            >
+              <article class="timeline-item">
+                <div class="timeline-item__marker">01</div>
+                <div class="timeline-item__body glass">
+                  <header class="timeline-item__header">
+                    <div>
+                      <h3>Graduate Research Assistant</h3>
+                      <p>
+                        Tracer Hydrology Lab, University of Texas at Arlington
+                      </p>
+                    </div>
+                    <p class="timeline-item__date">
+                      Apr 2024 – Dec 2025
+                    </p>
+                  </header>
+                  <ul class="timeline-item__list">
+                    <li>
+                      • Led a non-thesis project analyzing soil, plant-water
+                      isotopes, groundwater, and precipitation using field survey
+                      techniques; delivered 2–3 presentations.
+                    </li>
+                    <li>
+                      • Analyzed 100–150 monthly samples (precipitation, soil,
+                      surface water, and plant water) using isotope tracer
+                      techniques.
+                    </li>
+                    <li>
+                      • Maintained an isotope hydrology database (800+ samples)
+                      ensuring data integrity and accessibility for a three-year
+                      ecohydrology research program.
+                    </li>
+                    <li>
+                      • Visualized δ¹⁸O and δ²H data with ArcGIS for lab seminar
+                      and university symposium discussions on soil and plant-water
+                      uptake patterns.
+                    </li>
+                    <li>
+                      • Automated data-cleaning workflows in R with reproducible
+                      reporting, reducing processing time by 40% and improving
+                      visualization clarity.
+                    </li>
+                  </ul>
+                  <div class="timeline-item__tags">
+                    <span class="pill pill--tag">Isotope analysis</span>
+                    <span class="pill pill--tag">Sample database</span>
+                    <span class="pill pill--tag">Data visualization</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-item__marker">02</div>
+                <div class="timeline-item__body glass">
+                  <header class="timeline-item__header">
+                    <div>
+                      <h3>Teaching Assistant</h3>
+                      <p>
+                        Environmental Science, University of Texas at Arlington
+                      </p>
+                    </div>
+                    <p class="timeline-item__date">
+                      Jan 2025 – Dec 2025
+                    </p>
+                  </header>
+                  <ul class="timeline-item__list">
+                    <li>
+                      • Guided 50 undergraduate students through environmental
+                      science concepts in weekly lab sessions.
+                    </li>
+                    <li>
+                      • Graded 50 assignments per week providing detailed
+                      feedback on homework, quizzes, and lab reports.
+                    </li>
+                    <li>
+                      • Developed field-based water quality assessment exercise
+                      improving engagement by 80%.
+                    </li>
+                  </ul>
+                  <div class="timeline-item__tags">
+                    <span class="pill pill--tag">Teaching &amp; mentoring</span>
+                    <span class="pill pill--tag">Lab design</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-item__marker">03</div>
+                <div class="timeline-item__body glass">
+                  <header class="timeline-item__header">
+                    <div>
+                      <h3>Ecological Design Intern</h3>
+                      <p>Before Lifestyle Solutions, India</p>
+                    </div>
+                    <p class="timeline-item__date">
+                      Jan 2023 – Apr 2023
+                    </p>
+                  </header>
+                  <ul class="timeline-item__list">
+                    <li>
+                      • Designed 1-acre permaculture system integrating fruit
+                      trees and nitrogen-fixing species.
+                    </li>
+                    <li>
+                      • Reduced irrigation demand 30–40% and improved water
+                      retention by 15–25% via thick organic mulching, canopy
+                      layering, contour planning, and rainwater harvesting.
+                    </li>
+                    <li>
+                      • Increased soil organic carbon 0.3–0.6% via continuous
+                      mulching and leguminous plantings.
+                    </li>
+                  </ul>
+                  <div class="timeline-item__tags">
+                    <span class="pill pill--tag pill--green">
+                      Permaculture
+                    </span>
+                    <span class="pill pill--tag pill--green">
+                      Water conservation
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <aside
+              class="journey__side glass"
+              data-reveal="up"
+              data-reveal-delay="120"
+            >
+              <p class="badge-label badge-label--small">
+                APPROACH
+              </p>
+              <h3>
+                Connecting lab signals to landscape patterns.
+              </h3>
+              <p>
+                I treat every dataset as a climate-resilience story—linking
+                isotope signals with GIS-driven patterns from environmental
+                monitoring to support sustainability-focused decisions.
+              </p>
+
+              <div class="journey__side-cards">
+                <article class="mini-card">
+                  <p class="mini-card__eyebrow">FIELD TO LAB</p>
+                  <p class="mini-card__text">
+                    Integrated workflows from site selection and sampling design
+                    to isotopic measurement and QA/QC.
+                  </p>
+                </article>
+                <article class="mini-card">
+                  <p class="mini-card__eyebrow">DATA TO ACTION</p>
+                  <p class="mini-card__text">
+                    Translating hydrological datasets into visuals and insights
+                    that support more resilient water management.
+                  </p>
+                </article>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section
+        class="section section--alt"
+        id="projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="container">
+          <header class="section__header" data-reveal="up">
+            <p class="badge-label">KEY PROJECTS</p>
+            <h2 id="projects-heading" class="section__title">
+              Research in action.
+            </h2>
+          </header>
+
+          <div
+            class="projects__grid"
+            data-reveal="up"
+            data-reveal-delay="40"
+          >
+            <article class="project-card glass">
+              <div class="project-card__icon project-card__icon--cyan">
+                💧
+              </div>
+              <p class="project-card__eyebrow">ISOTOPE TRACER HYDROLOGY</p>
+              <h3 class="project-card__title">
+                Isotope Tracer Hydrology Research Project
+              </h3>
+              <p class="project-card__body">
+                Monthly isotopic analysis of 100–150 precipitation, soil,
+                surface, and plant water samples, using δ¹⁸O and δ²H to
+                quantify water cycling and plant-water uptake for
+                ecohydrological modeling.
+              </p>
+              <ul class="project-card__list">
+                <li>✓ 100–150 monthly samples analyzed</li>
+                <li>✓ 800+ sample database (data integrity)</li>
+                <li>✓ R-based automated data cleaning (40% less processing time)</li>
+                <li>✓ 80% increase in infiltration insights</li>
+              </ul>
+              <p class="project-card__meta">
+                Tools: R, RStudio, ArcGIS, Lab Analysis
+              </p>
+            </article>
+
+            <article class="project-card glass project-card--green">
+              <div class="project-card__icon project-card__icon--green">
+                🌱
+              </div>
+              <p class="project-card__eyebrow">PERMACULTURE DESIGN</p>
+              <h3 class="project-card__title">
+                Permaculture-Based Plantation Design
+              </h3>
+              <p class="project-card__body">
+                Developed an agroforestry permaculture planting system with
+                at least 5 mutually beneficial plant interactions to enhance
+                soil fertility and reduce water demand.
+              </p>
+              <ul class="project-card__list">
+                <li>✓ At least 5 mutually beneficial plant interactions</li>
+                <li>✓ 20% water demand reduction</li>
+                <li>✓ 80% on-farm biodiversity increase</li>
+                <li>✓ 15%+ soil fertility improvement</li>
+              </ul>
+              <p class="project-card__meta">
+                Methods: Permaculture, Agroforestry, Contour Planning
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section
+        class="section"
+        id="skills"
+        aria-labelledby="skills-heading"
+      >
+        <div class="container">
+          <header class="section__header" data-reveal="up">
+            <p class="badge-label">TECHNICAL SKILLS</p>
+            <h2 id="skills-heading" class="section__title">
+              Tools and methods.
+            </h2>
+          </header>
+
+          <div
+            class="skills__grid"
+            data-reveal="up"
+            data-reveal-delay="40"
+          >
+            <article class="skill-col glass">
+              <h3 class="skill-col__title">RESEARCH METHODS</h3>
+              <ul>
+                <li>• Isotope Hydrology</li>
+                <li>• Tracer Studies</li>
+                <li>• Gravimetric Techniques</li>
+                <li>• Soil &amp; Plant Water Analysis</li>
+                <li>• Field Investigation</li>
+              </ul>
+            </article>
+            <article class="skill-col glass">
+              <h3 class="skill-col__title">LABORATORY</h3>
+              <ul>
+                <li>• Groundwater Sampling</li>
+                <li>• SOP Documentation</li>
+                <li>• QA/QC Protocols</li>
+                <li>• Environmental Compliance</li>
+                <li>• Hazard Communication &amp; Waste Management (CHEM200)</li>
+              </ul>
+            </article>
+            <article class="skill-col glass">
+              <h3 class="skill-col__title">DATA &amp; ANALYSIS</h3>
+              <ul>
+                <li>• R (RStudio) + reproducible workflows</li>
+                <li>• ArcGIS / QGIS</li>
+                <li>• MS Excel</li>
+                <li>• Data Visualization (δ¹⁸O / δ²H)</li>
+                <li>• QA/QC hydrological &amp; environmental datasets</li>
+              </ul>
+            </article>
+            <article class="skill-col glass">
+              <h3 class="skill-col__title">FIELD WORK</h3>
+              <ul>
+                <li>• Site Monitoring</li>
+                <li>• Field Survey Techniques</li>
+                <li>• Sample Collection</li>
+                <li>• Report Writing</li>
+                <li>• Field Investigation</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section
+        class="section section--alt"
+        id="education"
+        aria-labelledby="education-heading"
+      >
+        <div class="container">
+          <header class="section__header" data-reveal="up">
+            <p class="badge-label">EDUCATION</p>
+            <h2 id="education-heading" class="section__title sr-only">
+              Education
+            </h2>
+          </header>
+
+          <div
+            class="education__grid"
+            data-reveal="up"
+            data-reveal-delay="40"
+          >
+            <article class="edu-card glass">
+              <h3>Master of Science</h3>
+              <p>Environmental Earth Science</p>
+              <p class="edu-card__meta">
+                University of Texas at Arlington • Jan 2024 – Dec 2025
+              </p>
+            </article>
+
+            <article class="edu-card glass">
+              <h3>Bachelor of Science (Honors)</h3>
+              <p>Agriculture</p>
+              <p class="edu-card__meta">
+                PDM University, India • Aug 2019 – May 2023
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section
+        class="section section--contact"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container contact__grid">
+          <div
+            class="contact__intro"
+            data-reveal="up"
+          >
+            <h2 id="contact-heading" class="contact__title">
+              Let&apos;s collaborate.
+            </h2>
+            <p class="contact__subtitle">
+              Open to climate-resilience research, GIS/field-based environmental
+              monitoring, and teaching opportunities.
+            </p>
+
+            <div class="contact__items">
+              <div class="contact__item">
+                <span class="contact__icon">📧</span>
+                <a
+                  href="mailto:sahithiyellendula@gmail.com"
+                  class="contact__link"
+                >
+                  sahithiyellendula@gmail.com
+                </a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon">📱</span>
+                <a
+                  href="tel:+18179195062"
+                  class="contact__link"
+                >
+                  +1 (817) 919-5062
+                </a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon">💼</span>
+                <a
+                  href="https://www.linkedin.com/in/sahithi-yellendula-674397216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  class="contact__link"
+                  data-linkedin
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn Profile
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact__form"
+            data-reveal="up"
+            data-reveal-delay="60"
+          >
+            <div class="contact__field-row">
+              <label class="contact__field">
+                <span class="contact__label">Name</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  autocomplete="name"
+                />
+              </label>
+              <label class="contact__field">
+                <span class="contact__label">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                />
+              </label>
+            </div>
+            <label class="contact__field">
+              <span class="contact__label">Message</span>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Share a bit about the opportunity..."
+              ></textarea>
+            </label>
+            <button type="button" class="btn btn--dark contact__submit">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>© 2026 Sahithi Yellendula • Environmental Science Graduate Researcher</p>
+        <p>
+          Built with HTML, CSS, and JavaScript
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
