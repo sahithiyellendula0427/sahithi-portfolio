@@ -1,4 +1,4 @@
-# Sahithi Yellendula — Portfolio
+# Sahithi Yellendula - Portfolio
 
 Static portfolio site: HTML, CSS, and JavaScript. No React or build step beyond serving.
 
@@ -21,7 +21,7 @@ Output is in `dist/`. Serve with any static host or `npm run preview`.
 
 ## Structure
 
-- `index.html` — Single-page content
-- `styles.css` — Layout and theme
-- `script.js` — Smooth scroll, mobile nav, scroll reveal, hero canvas
-- `public/favicon.svg` — Favicon
+- `index.html` - Single-page content
+- `styles.css` - Layout and theme
+- `script.js` - Smooth scroll, mobile nav, scroll reveal, hero canvas
+- `public/favicon.svg` - Favicon
